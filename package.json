@@ -1,0 +1,19 @@
+{
+  "name": "domlife",
+  "version": "0.2.0",
+  "description": "Browser lifecycle state manager + SSE + 3x3 region view (Korean Edition)",
+  "type": "module",
+  "module": "dist/domlife.esm.js",
+  "main": "dist/domlife.iife.js",
+  "exports": "./dist/domlife.esm.js",
+  "sideEffects": false,
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4"
+  }
+}
