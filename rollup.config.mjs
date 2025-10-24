@@ -1,5 +1,6 @@
 import resolve from '@rollup/plugin-node-resolve';
-import { terser } from '@rollup/plugin-terser';
+import terser from '@rollup/plugin-terser';     // ✅ default import
+
 export default {
   input: 'src/domlife.js',
   output: [
